@@ -28,6 +28,8 @@ Features
 
 * TODO
 
+To run, first install the getsysinfo module from the following github repo: https://github.com/OBrien1510/getsysinfo. Once this has been done, navigate to the sysinfoflask/sysinfoflask and from here use the following command to fun the flask application: python run.py. To view the results copy the URL posted to the terminal into your web browser of choice and press enter.
+
 Credits
 -------
 
