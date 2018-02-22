@@ -3,7 +3,7 @@ from app import app
 from getsysinfo import getsysinfo
 @app.route('/')
 def index():
-	output = getsysinfo.getsysinfo()
+	output = getsysinfo.main()
 	returnDict = {}
 	returnDict['systeminfo'] = output
 	returnDict['title'] = 'Home'
